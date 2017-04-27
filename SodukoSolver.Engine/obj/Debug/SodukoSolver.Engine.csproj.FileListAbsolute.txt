@@ -1,0 +1,11 @@
+d:\users\john\documents\visual studio 2015\Projects\SodukoSolver\SodukoSolver.Engine\bin\Debug\SodukoSolver.Engine.dll
+d:\users\john\documents\visual studio 2015\Projects\SodukoSolver\SodukoSolver.Engine\bin\Debug\SodukoSolver.Engine.pdb
+d:\users\john\documents\visual studio 2015\Projects\SodukoSolver\SodukoSolver.Engine\obj\Debug\SodukoSolver.Engine.csprojResolveAssemblyReference.cache
+d:\users\john\documents\visual studio 2015\Projects\SodukoSolver\SodukoSolver.Engine\obj\Debug\SodukoSolver.Engine.dll
+d:\users\john\documents\visual studio 2015\Projects\SodukoSolver\SodukoSolver.Engine\obj\Debug\SodukoSolver.Engine.pdb
+F:\Users\John\Documents\Visual Studio 2015\Projects\SodukoSolver\SodukoSolver.Engine\bin\Debug\SodukoSolver.Engine.dll
+F:\Users\John\Documents\Visual Studio 2015\Projects\SodukoSolver\SodukoSolver.Engine\bin\Debug\SodukoSolver.Engine.pdb
+F:\Users\John\Documents\Visual Studio 2015\Projects\SodukoSolver\SodukoSolver.Engine\obj\Debug\SodukoSolver.Engine.dll
+F:\Users\John\Documents\Visual Studio 2015\Projects\SodukoSolver\SodukoSolver.Engine\obj\Debug\SodukoSolver.Engine.pdb
+F:\Users\John\Documents\Visual Studio 2015\Projects\SodukoSolver\SodukoSolver.Engine\bin\Debug\SodukoSolver.Engine.dll.CodeAnalysisLog.xml
+F:\Users\John\Documents\Visual Studio 2015\Projects\SodukoSolver\SodukoSolver.Engine\bin\Debug\SodukoSolver.Engine.dll.lastcodeanalysissucceeded

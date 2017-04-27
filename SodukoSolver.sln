@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SodukoSolver.Engine", "SodukoSolver.Engine\SodukoSolver.Engine.csproj", "{B46A1B07-799E-47F9-AA87-62A05050C08F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SodukuSolver.Engine.Tests", "SodukuSolver.Engine.Tests\SodukuSolver.Engine.Tests.csproj", "{776529B0-30B5-452F-AB3E-6E76F05547EC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B46A1B07-799E-47F9-AA87-62A05050C08F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B46A1B07-799E-47F9-AA87-62A05050C08F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B46A1B07-799E-47F9-AA87-62A05050C08F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B46A1B07-799E-47F9-AA87-62A05050C08F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{776529B0-30B5-452F-AB3E-6E76F05547EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{776529B0-30B5-452F-AB3E-6E76F05547EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{776529B0-30B5-452F-AB3E-6E76F05547EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{776529B0-30B5-452F-AB3E-6E76F05547EC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
