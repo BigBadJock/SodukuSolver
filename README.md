@@ -1,2 +1,1 @@
-# SodukuSolver
-A Soduku solver written in C#
+# SodukuSolverA Soduku solver written in C#Currently only the solver engine is written, with unit tests. **There is no UI yet.**
