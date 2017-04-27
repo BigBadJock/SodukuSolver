@@ -50,8 +50,10 @@
     </Otherwise>
   </Choose>
   <ItemGroup>
+    <Compile Include="SodukoBoardTests.cs" />
     <Compile Include="SodukuTests.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="CellGroupTests.cs" />
   </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\SodukoSolver.Engine\SodukoSolver.Engine.csproj">

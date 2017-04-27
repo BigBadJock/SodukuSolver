@@ -17,3 +17,11 @@ F:\Users\John\Documents\Visual Studio 2015\Projects\SodukoSolver\SodukuSolver.En
 F:\Users\John\Documents\Visual Studio 2015\Projects\SodukoSolver\SodukuSolver.Engine.Tests\obj\Debug\SodukuSolver.Engine.Tests.pdb
 F:\Users\John\Documents\Visual Studio 2015\Projects\SodukoSolver\SodukuSolver.Engine.Tests\bin\Debug\SodukuSolver.Engine.Tests.dll.CodeAnalysisLog.xml
 F:\Users\John\Documents\Visual Studio 2015\Projects\SodukoSolver\SodukuSolver.Engine.Tests\bin\Debug\SodukuSolver.Engine.Tests.dll.lastcodeanalysissucceeded
+F:\GitHub\SodukuSolver\SodukuSolver.Engine.Tests\bin\Debug\SodukuSolver.Engine.Tests.dll
+F:\GitHub\SodukuSolver\SodukuSolver.Engine.Tests\bin\Debug\SodukuSolver.Engine.Tests.pdb
+F:\GitHub\SodukuSolver\SodukuSolver.Engine.Tests\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+F:\GitHub\SodukuSolver\SodukuSolver.Engine.Tests\bin\Debug\SodukoSolver.Engine.dll
+F:\GitHub\SodukuSolver\SodukuSolver.Engine.Tests\bin\Debug\SodukoSolver.Engine.pdb
+F:\GitHub\SodukuSolver\SodukuSolver.Engine.Tests\obj\Debug\SodukuSolver.Engine.Tests.csprojResolveAssemblyReference.cache
+F:\GitHub\SodukuSolver\SodukuSolver.Engine.Tests\obj\Debug\SodukuSolver.Engine.Tests.dll
+F:\GitHub\SodukuSolver\SodukuSolver.Engine.Tests\obj\Debug\SodukuSolver.Engine.Tests.pdb
