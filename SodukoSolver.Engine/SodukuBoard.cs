@@ -14,23 +14,7 @@ namespace SodukoSolver.Engine
 
         public SodukuBoard()
         {
-            this.Cells = new Cell[81];
-            for(int i=0; i<81; i++)
-            {
-                this.Cells[i] = new Cell { Id = i };
-            }
-
-            GridStartCells = new Dictionary<int, int>();
-            GridStartCells.Add(0, 0);
-            GridStartCells.Add(1, 3);
-            GridStartCells.Add(2, 6);
-            GridStartCells.Add(3, 27);
-            GridStartCells.Add(4, 30);
-            GridStartCells.Add(5, 33);
-            GridStartCells.Add(6, 54);
-            GridStartCells.Add(7, 57);
-            GridStartCells.Add(8, 60);
-
+            Clear();
         }
 
         public void SetCell(int cellId, int value)
@@ -111,6 +95,26 @@ namespace SodukoSolver.Engine
             int i = Cells.Where(c => !c.IsSet).Count();
             this.IsSolved = i == 0;
             return this.IsSolved;
+        }
+
+        public void Clear()
+        {
+            this.Cells = new Cell[81];
+            for (int i = 0; i < 81; i++)
+            {
+                this.Cells[i] = new Cell { Id = i };
+            }
+
+            GridStartCells = new Dictionary<int, int>();
+            GridStartCells.Add(0, 0);
+            GridStartCells.Add(1, 3);
+            GridStartCells.Add(2, 6);
+            GridStartCells.Add(3, 27);
+            GridStartCells.Add(4, 30);
+            GridStartCells.Add(5, 33);
+            GridStartCells.Add(6, 54);
+            GridStartCells.Add(7, 57);
+            GridStartCells.Add(8, 60);
         }
     }
 }

@@ -1,0 +1,133 @@
+﻿<Window x:Class="SodokuSolver.UI.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:SodokuSolver.UI"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="525">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="50"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+        <Grid Grid.Row="1" Margin="10">
+            <Grid.RowDefinitions>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+                <RowDefinition/>
+            </Grid.RowDefinitions>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <!-- Row 0 -->
+            <TextBox Grid.Row="0" Grid.Column="0" x:Name="box0" />
+            <TextBox Grid.Row="0" Grid.Column="1" x:Name="box1" />
+            <TextBox Grid.Row="0" Grid.Column="2" x:Name="box2" />
+            <TextBox Grid.Row="0" Grid.Column="3" x:Name="box3" />
+            <TextBox Grid.Row="0" Grid.Column="4" x:Name="box4" />
+            <TextBox Grid.Row="0" Grid.Column="5" x:Name="box5" />
+            <TextBox Grid.Row="0" Grid.Column="6" x:Name="box6" />
+            <TextBox Grid.Row="0" Grid.Column="7" x:Name="box7" />
+            <TextBox Grid.Row="0" Grid.Column="8" x:Name="box8" />
+            <!-- Row 1 -->
+            <TextBox Grid.Row="1" Grid.Column="0" x:Name="box9" />
+            <TextBox Grid.Row="1" Grid.Column="1" x:Name="box10" />
+            <TextBox Grid.Row="1" Grid.Column="2" x:Name="box11" />
+            <TextBox Grid.Row="1" Grid.Column="3" x:Name="box12" />
+            <TextBox Grid.Row="1" Grid.Column="4" x:Name="box13" />
+            <TextBox Grid.Row="1" Grid.Column="5" x:Name="box14" />
+            <TextBox Grid.Row="1" Grid.Column="6" x:Name="box15" />
+            <TextBox Grid.Row="1" Grid.Column="7" x:Name="box16" />
+            <TextBox Grid.Row="1" Grid.Column="8" x:Name="box17" />
+            <!-- Row 2 -->
+            <TextBox Grid.Row="2" Grid.Column="0" x:Name="box18" />
+            <TextBox Grid.Row="2" Grid.Column="1" x:Name="box19" />
+            <TextBox Grid.Row="2" Grid.Column="2" x:Name="box20" />
+            <TextBox Grid.Row="2" Grid.Column="3" x:Name="box21" />
+            <TextBox Grid.Row="2" Grid.Column="4" x:Name="box22" />
+            <TextBox Grid.Row="2" Grid.Column="5" x:Name="box23" />
+            <TextBox Grid.Row="2" Grid.Column="6" x:Name="box24" />
+            <TextBox Grid.Row="2" Grid.Column="7" x:Name="box25" />
+            <TextBox Grid.Row="2" Grid.Column="8" x:Name="box26" />
+            <!-- Row 3 -->
+            <TextBox Grid.Row="3" Grid.Column="0" x:Name="box27" />
+            <TextBox Grid.Row="3" Grid.Column="1" x:Name="box28" />
+            <TextBox Grid.Row="3" Grid.Column="2" x:Name="box29" />
+            <TextBox Grid.Row="3" Grid.Column="3" x:Name="box30" />
+            <TextBox Grid.Row="3" Grid.Column="4" x:Name="box31" />
+            <TextBox Grid.Row="3" Grid.Column="5" x:Name="box32" />
+            <TextBox Grid.Row="3" Grid.Column="6" x:Name="box33" />
+            <TextBox Grid.Row="3" Grid.Column="7" x:Name="box34" />
+            <TextBox Grid.Row="3" Grid.Column="8" x:Name="box35" />
+            <!-- Row 4 -->
+            <TextBox Grid.Row="4" Grid.Column="0" x:Name="box36" />
+            <TextBox Grid.Row="4" Grid.Column="1" x:Name="box37" />
+            <TextBox Grid.Row="4" Grid.Column="2" x:Name="box38" />
+            <TextBox Grid.Row="4" Grid.Column="3" x:Name="box39" />
+            <TextBox Grid.Row="4" Grid.Column="4" x:Name="box40" />
+            <TextBox Grid.Row="4" Grid.Column="5" x:Name="box41" />
+            <TextBox Grid.Row="4" Grid.Column="6" x:Name="box42" />
+            <TextBox Grid.Row="4" Grid.Column="7" x:Name="box43" />
+            <TextBox Grid.Row="4" Grid.Column="8" x:Name="box44" />
+            <!-- Row 5 -->
+            <TextBox Grid.Row="5" Grid.Column="0" x:Name="box45" />
+            <TextBox Grid.Row="5" Grid.Column="1" x:Name="box46" />
+            <TextBox Grid.Row="5" Grid.Column="2" x:Name="box47" />
+            <TextBox Grid.Row="5" Grid.Column="3" x:Name="box48" />
+            <TextBox Grid.Row="5" Grid.Column="4" x:Name="box49" />
+            <TextBox Grid.Row="5" Grid.Column="5" x:Name="box50" />
+            <TextBox Grid.Row="5" Grid.Column="6" x:Name="box51" />
+            <TextBox Grid.Row="5" Grid.Column="7" x:Name="box52" />
+            <TextBox Grid.Row="5" Grid.Column="8" x:Name="box53" />
+            <!-- Row 6 -->
+            <TextBox Grid.Row="6" Grid.Column="0" x:Name="box54" />
+            <TextBox Grid.Row="6" Grid.Column="1" x:Name="box55" />
+            <TextBox Grid.Row="6" Grid.Column="2" x:Name="box56" />
+            <TextBox Grid.Row="6" Grid.Column="3" x:Name="box57" />
+            <TextBox Grid.Row="6" Grid.Column="4" x:Name="box58" />
+            <TextBox Grid.Row="6" Grid.Column="5" x:Name="box59" />
+            <TextBox Grid.Row="6" Grid.Column="6" x:Name="box60" />
+            <TextBox Grid.Row="6" Grid.Column="7" x:Name="box61" />
+            <TextBox Grid.Row="6" Grid.Column="8" x:Name="box62" />
+            <!-- Row 7 -->
+            <TextBox Grid.Row="7" Grid.Column="0" x:Name="box63" />
+            <TextBox Grid.Row="7" Grid.Column="1" x:Name="box64" />
+            <TextBox Grid.Row="7" Grid.Column="2" x:Name="box65" />
+            <TextBox Grid.Row="7" Grid.Column="3" x:Name="box66" />
+            <TextBox Grid.Row="7" Grid.Column="4" x:Name="box67" />
+            <TextBox Grid.Row="7" Grid.Column="5" x:Name="box68" />
+            <TextBox Grid.Row="7" Grid.Column="6" x:Name="box69" />
+            <TextBox Grid.Row="7" Grid.Column="7" x:Name="box70" />
+            <TextBox Grid.Row="7" Grid.Column="8" x:Name="box71" />
+            <!-- Row 8 -->
+            <TextBox Grid.Row="8" Grid.Column="0" x:Name="box72" />
+            <TextBox Grid.Row="8" Grid.Column="1" x:Name="box73" />
+            <TextBox Grid.Row="8" Grid.Column="2" x:Name="box74" />
+            <TextBox Grid.Row="8" Grid.Column="3" x:Name="box75" />
+            <TextBox Grid.Row="8" Grid.Column="4" x:Name="box76" />
+            <TextBox Grid.Row="8" Grid.Column="5" x:Name="box77" />
+            <TextBox Grid.Row="8" Grid.Column="6" x:Name="box78" />
+            <TextBox Grid.Row="8" Grid.Column="7" x:Name="box79" />
+            <TextBox Grid.Row="8" Grid.Column="8" x:Name="box80" />
+        </Grid>
+        <Button x:Name="btnSolve" Content="Solve" HorizontalAlignment="Left" Margin="22,10,0,0" VerticalAlignment="Top" Width="75" Click="btnSolve_Click"/>
+        <Button x:Name="btnTest" Content="Test" HorizontalAlignment="Left" Margin="102,10,0,0" VerticalAlignment="Top" Width="75" AutomationProperties.Name="btnTest" Click="btnTest_Click"/>
+        <Button x:Name="btnClear" Content="Clear" HorizontalAlignment="Left" Margin="182,10,0,0" VerticalAlignment="Top" Width="75" Click="btnClear_Click"/>
+
+    </Grid>
+</Window>

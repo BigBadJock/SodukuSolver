@@ -25,3 +25,4 @@ F:\GitHub\SodukuSolver\SodukuSolver.Engine.Tests\bin\Debug\SodukoSolver.Engine.p
 F:\GitHub\SodukuSolver\SodukuSolver.Engine.Tests\obj\Debug\SodukuSolver.Engine.Tests.csprojResolveAssemblyReference.cache
 F:\GitHub\SodukuSolver\SodukuSolver.Engine.Tests\obj\Debug\SodukuSolver.Engine.Tests.dll
 F:\GitHub\SodukuSolver\SodukuSolver.Engine.Tests\obj\Debug\SodukuSolver.Engine.Tests.pdb
+F:\GitHub\SodukuSolver\SodukuSolver.Engine.Tests\obj\Debug\SodukuSolver.Engine.Tests.csproj.CoreCompileInputs.cache

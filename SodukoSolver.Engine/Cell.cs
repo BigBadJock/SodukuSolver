@@ -1,8 +1,9 @@
 ﻿using System;
+using System.ComponentModel;
 
 namespace SodukoSolver.Engine
 {
-    public class Cell : ICloneable
+    public class Cell : ICloneable, INotifyPropertyChanged
     {
 
         public int Id { get; set; }
@@ -11,24 +12,37 @@ namespace SodukoSolver.Engine
 
         private int cellValue;
 
+        public event PropertyChangedEventHandler PropertyChanged;
+
+        public void OnValueChanged(string name)
+        {
+            if(PropertyChanged != null)
+            {
+                PropertyChanged(this, new PropertyChangedEventArgs(name));
+            }
+        }
+
         public int Value
         {
             get { return cellValue; }
             set {
-                cellValue = value;
-                if (value > 0)
+                if (value != cellValue)
                 {
-                    IsSet = true;
-                    PossibleValues = "";
-                }
-                else
-                {
-                    IsSet = false;
-                    PossibleValues = "123456789";
+                    cellValue = value;
+                    if (value > 0)
+                    {
+                        IsSet = true;
+                        PossibleValues = "";
+                    }
+                    else
+                    {
+                        IsSet = false;
+                        PossibleValues = "123456789";
+                    }
+                    OnValueChanged("Value");
                 }
             }
         }
-
 
         public Cell()
         {

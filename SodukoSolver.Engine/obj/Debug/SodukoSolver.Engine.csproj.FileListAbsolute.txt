@@ -9,3 +9,9 @@ F:\Users\John\Documents\Visual Studio 2015\Projects\SodukoSolver\SodukoSolver.En
 F:\Users\John\Documents\Visual Studio 2015\Projects\SodukoSolver\SodukoSolver.Engine\obj\Debug\SodukoSolver.Engine.pdb
 F:\Users\John\Documents\Visual Studio 2015\Projects\SodukoSolver\SodukoSolver.Engine\bin\Debug\SodukoSolver.Engine.dll.CodeAnalysisLog.xml
 F:\Users\John\Documents\Visual Studio 2015\Projects\SodukoSolver\SodukoSolver.Engine\bin\Debug\SodukoSolver.Engine.dll.lastcodeanalysissucceeded
+F:\GitHub\SodukuSolver\SodukoSolver.Engine\bin\Debug\SodukoSolver.Engine.dll
+F:\GitHub\SodukuSolver\SodukoSolver.Engine\bin\Debug\SodukoSolver.Engine.pdb
+F:\GitHub\SodukuSolver\SodukoSolver.Engine\obj\Debug\SodukoSolver.Engine.csprojResolveAssemblyReference.cache
+F:\GitHub\SodukuSolver\SodukoSolver.Engine\obj\Debug\SodukoSolver.Engine.dll
+F:\GitHub\SodukuSolver\SodukoSolver.Engine\obj\Debug\SodukoSolver.Engine.pdb
+F:\GitHub\SodukuSolver\SodukoSolver.Engine\obj\Debug\SodukoSolver.Engine.csproj.CoreCompileInputs.cache

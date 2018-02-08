@@ -17,10 +17,6 @@ namespace SodukuSolver.Engine.Tests
             Assert.AreEqual("123456789", cell.PossibleValues);
         }
 
-
-
-
-
  
         [TestMethod]
         public void Solver_Test()
@@ -74,6 +70,60 @@ namespace SodukuSolver.Engine.Tests
             // assert
             Assert.IsTrue(result.IsSolved);
             foreach(Cell c in result.Cells)
+            {
+                Assert.IsTrue(c.IsSet);
+            }
+        }
+
+
+        [TestMethod]
+        public void Solver_Test2()
+        {
+            // arrange
+            SodukuBoard board = new SodukuBoard();
+            // row 0
+            board.SetCell(0, 6);
+            board.SetCell(4, 1);
+            board.SetCell(5, 2);
+            // row 1
+            board.SetCell(12, 6);
+            board.SetCell(15, 3);
+            board.SetCell(16, 7);
+            // row 2
+            board.SetCell(20, 5);
+            board.SetCell(22, 9);
+            board.SetCell(25, 6);
+            // row 3
+            board.SetCell(28, 4);
+            board.SetCell(35, 5);
+            // row 4
+            board.SetCell(36, 3);
+            board.SetCell(38, 8);
+            board.SetCell(42, 6);
+            board.SetCell(44, 7);
+            // row 5
+            board.SetCell(45, 1);
+            board.SetCell(52, 9);
+            // row 6
+            board.SetCell(55, 1);
+            board.SetCell(58, 3);
+            board.SetCell(60, 8);
+            // row 7
+            board.SetCell(64, 7);
+            board.SetCell(65, 3);
+            board.SetCell(68, 6);
+            // row 8
+            board.SetCell(75, 4);
+            board.SetCell(76, 5);
+            board.SetCell(80, 6);
+
+
+            // act
+            SodukuBoard result = Solver.Solve(board);
+
+            // assert
+            Assert.IsTrue(result.IsSolved);
+            foreach (Cell c in result.Cells)
             {
                 Assert.IsTrue(c.IsSet);
             }
